@@ -9,7 +9,7 @@ int main(void)
     scanf("%s", nome);
     scanf("%i", &idade);
 
-    printf("hello %s de anos %i\n", nome, idade);
+    printf("tchau %s de anos %i\n", nome, idade);
 
     return 0;
 }
