@@ -3,8 +3,13 @@
  
 int main(void)
 {
- char nome[100];
-scanf("%s", nome);
-printf("hello %s\n", nome);
-return 0;
+    char nome[100];
+    int idade;
+
+    scanf("%s", nome);
+    scanf("%i", &idade);
+
+    printf("hello %s de anos %i\n", nome, idade);
+
+    return 0;
 }
